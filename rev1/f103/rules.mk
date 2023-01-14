@@ -25,6 +25,7 @@ NKRO_ENABLE = yes           # Enable N-Key Rollover
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = yes   # Enable keyboard underlight functionality
 LEADER_ENABLE = yes
+BACKLIGHT_DRIVER = pwm
 
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
 
