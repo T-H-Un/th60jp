@@ -53,4 +53,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define FEE_MCU_FLASH_SIZE 32
 #define FEE_PAGE_COUNT 2
 #define FEE_PAGE_SIZE 1024
-#define NO_ACTION_TAPPING
+//#define NO_ACTION_TAPPING
