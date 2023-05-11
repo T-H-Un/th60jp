@@ -14,12 +14,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma once
-#include "config_common.h"
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0000
-#define DEVICE_VER	0x0003
-#define MANUFACTURER    T-H-Un
-#define PRODUCT         TH60JP Prototype v2
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
@@ -41,7 +35,18 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_DI_PIN A7
 #define RGBLED_NUM 16
 #define DRIVER_LED_TOTAL RGBLED_NUM
-#define RGBLIGHT_ANIMATIONS
+
+#define RGBLIGHT_EFFECT_BREATHING
+#define RGBLIGHT_EFFECT_RAINBOW_MOOD
+#define RGBLIGHT_EFFECT_RAINBOW_SWIRL
+#define RGBLIGHT_EFFECT_SNAKE
+#define RGBLIGHT_EFFECT_KNIGHT
+#define RGBLIGHT_EFFECT_CHRISTMAS
+#define RGBLIGHT_EFFECT_STATIC_GRADIENT
+#define RGBLIGHT_EFFECT_RGB_TEST
+#define RGBLIGHT_EFFECT_ALTERNATING
+#define RGBLIGHT_EFFECT_TWINKLE
+
 
 #define RGB_MATRIX_KEYPRESSES
 

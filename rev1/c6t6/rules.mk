@@ -27,15 +27,15 @@ WS2812_DRIVER = spi
 BACKLIGHT_ENABLE = no
 BOOTMAGIC_ENABLE = no       # Enable Bootmagic Lite
 MOUSEKEY_ENABLE = no  # Mouse keys
-EXTRAKEY_ENABLE = yes   # Audio control and System control
+EXTRAKEY_ENABLE = no   # Audio control and System control
 CONSOLE_ENABLE = no    # Console for debug
 COMMAND_ENABLE = no     # Commands for debug and configuration
 NKRO_ENABLE = yes           # Enable N-Key Rollover
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no   # Enable keyboard underlight functionality
-LEADER_ENABLE = yes
+LEADER_ENABLE = no
 SPACE_CADET_ENABLE = no
-GRAVE_ESC_ENABLE = yes
+GRAVE_ESC_ENABLE = no
 MAGIC_ENABLE = no
 
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE

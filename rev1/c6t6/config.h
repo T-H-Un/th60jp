@@ -14,18 +14,13 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #pragma once
-#include "config_common.h"
-#define VENDOR_ID       0xFEED
-#define PRODUCT_ID      0x0000
-#define DEVICE_VER	0x0002
-#define MANUFACTURER    T-H-Un
-#define PRODUCT         TH60JP Prototype v2L
 
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
 #define MATRIX_ROW_PINS { A8, A2, B13, B2, B10 }
 #define MATRIX_COL_PINS { A10, A9, A3, A4, A5, A6, B0, B1, A15, B3, B4, B5, C13, C14, C15 }
 #define DIODE_DIRECTION COL2ROW
+
 /*
 #define DEBOUNCE 5
 #define LOCKING_SUPPORT_ENABLE
@@ -48,6 +43,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RGB_MATRIX_KEYPRESSES
 */
+
+#undef LOCKING_SUPPORT_ENABLE
+#undef LOCKING_RESYNC_ENABLE
+#define NO_MUSIC_MODE
 
 //For STM32F103C6T6A's EEPROM
 #define FEE_MCU_FLASH_SIZE 32
