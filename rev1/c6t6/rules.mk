@@ -34,6 +34,9 @@ NKRO_ENABLE = yes           # Enable N-Key Rollover
 AUDIO_ENABLE = no
 RGBLIGHT_ENABLE = no   # Enable keyboard underlight functionality
 LEADER_ENABLE = yes
+SPACE_CADET_ENABLE = no
+GRAVE_ESC_ENABLE = yes
+MAGIC_ENABLE = no
 
 OPT_DEFS += -DCORTEX_ENABLE_WFI_IDLE=TRUE
 
