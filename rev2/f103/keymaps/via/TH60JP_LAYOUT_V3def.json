@@ -2,7 +2,7 @@
     "name": "TH60JP Prototype",
   "vendorId": "FEED",
   "productId": "0x0000",
-  "menus": ["qmk_backlight_rgblight","qmk_backlight"],
+  "menus": ["qmk_backlight_rgblight"],
   "keycodes": ["qmk_lighting"],
   "matrix": { "rows": 5, "cols": 15 },
   "layouts": {
